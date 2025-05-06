@@ -1,4 +1,4 @@
-# Bobby Krishnan — Personal Portfolio
+# Personal Portfolio
 
 Personal portfolio website built with **React**, **Tailwind CSS**, and 3D hover effects via `react-parallax-tilt`. Hosted on **Vercel**.
 
