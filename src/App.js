@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Tilt from 'react-parallax-tilt';
-
+import Tilt from "react-parallax-tilt";
 
 function App() {
   return (
@@ -20,9 +19,9 @@ function App() {
 
       {/* Hero Section */}
       <section className="py-24 flex flex-col justify-center items-center text-center px-4">
-      <h2 className="text-4xl font-bold mb-2">Hi, I'm Bobby Krishnan</h2>
+        <h2 className="text-4xl font-bold mb-2">Hi, I'm Bobby Krishnan</h2>
         <p className="text-lg max-w-xl">
-        I am a full stack developer working to engineer ideas into reality
+          I am a full stack developer working to engineer ideas into reality
         </p>
       </section>
 
@@ -35,7 +34,7 @@ function App() {
           <h4 className="text-xl font-semibold mb-4"> Finance</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* IMC Prosperity 3 – Team Saturn */}
-            <div className="p-6 bg-white rounded-2xl shadow">
+            <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">IMC Prosperity 3 – Team Saturn</h4>
               <p className="mt-2 text-sm">
                 Global algorithmic trading competition by IMC. Placed #116 worldwide and #33 in the U.S. out of 12,620 participants.
@@ -53,10 +52,10 @@ function App() {
                   GitHub
                 </a>
               </div>
-            </div>
+            </Tilt>
 
             {/* Stock Price Forecasting Model */}
-            <div className="p-6 bg-white rounded-2xl shadow">
+            <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Stock Price Forecasting Model</h4>
               <p className="mt-2 text-sm">
                 An LSTM-based predictive model for forecasting stock price trends.
@@ -74,14 +73,14 @@ function App() {
                   GitHub
                 </a>
               </div>
-            </div>
+            </Tilt>
           </div>
 
           {/* Games Section */}
           <h4 className="text-xl font-semibold mb-4"> Games</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* ThinkFast */}
-            <div className="p-6 bg-white rounded-2xl shadow">
+            <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">ThinkFast</h4>
               <p className="mt-2 text-sm">
                 A fast-paced mental math game featuring solo and real-time multiplayer modes.
@@ -107,10 +106,10 @@ function App() {
                   Live Demo
                 </a>
               </div>
-            </div>
+            </Tilt>
 
             {/* Kai's Ascent */}
-            <div className="p-6 bg-white rounded-2xl shadow">
+            <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Kai's Ascent</h4>
               <p className="mt-2 text-sm">
                 A retro-inspired 2D side-scrolling action platformer built in Unity.
@@ -136,10 +135,10 @@ function App() {
                   Live Demo
                 </a>
               </div>
-            </div>
+            </Tilt>
 
             {/* Gambler's Ruin Game */}
-            <div className="p-6 bg-white rounded-2xl shadow">
+            <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Gambler’s Ruin Game</h4>
               <p className="mt-2 text-sm">
                 A 2D Old West-themed action platformer developed in Unity.
@@ -165,7 +164,7 @@ function App() {
                   Live Demo
                 </a>
               </div>
-            </div>
+            </Tilt>
           </div>
         </div>
       </section>
