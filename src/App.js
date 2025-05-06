@@ -39,7 +39,7 @@ function App() {
           <h3 className="text-2xl font-bold mb-8">Projects</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-            {/* ThinkFast Project */}
+            {/* ThinkFast */}
             <div className="p-6 bg-white rounded-2xl shadow">
               <h4 className="text-xl font-semibold">ThinkFast</h4>
               <p className="mt-2 text-sm">
@@ -68,7 +68,7 @@ function App() {
               </div>
             </div>
 
-            {/* IMC Prosperity 3 – Team Saturn Project */}
+            {/* IMC Prosperity 3 – Team Saturn */}
             <div className="p-6 bg-white rounded-2xl shadow">
               <h4 className="text-xl font-semibold">IMC Prosperity 3 – Team Saturn</h4>
               <p className="mt-2 text-sm">
@@ -89,7 +89,7 @@ function App() {
               </div>
             </div>
 
-            {/* Kai's Ascent Project */}
+            {/* Kai's Ascent */}
             <div className="p-6 bg-white rounded-2xl shadow">
               <h4 className="text-xl font-semibold">Kai's Ascent</h4>
               <p className="mt-2 text-sm">
@@ -109,6 +109,35 @@ function App() {
                 </a>
                 <a
                   href="https://bobby-krishnan.itch.io/kais-ascent"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+
+            {/* Gambler's Ruin Game */}
+            <div className="p-6 bg-white rounded-2xl shadow">
+              <h4 className="text-xl font-semibold">Gambler’s Ruin Game</h4>
+              <p className="mt-2 text-sm">
+                A 2D Old West-themed action platformer developed in Unity.
+              </p>
+              <p className="mt-2 text-sm text-gray-600 italic">
+                Technologies: Unity, C#
+              </p>
+              <div className="mt-3 space-x-4">
+                <a
+                  href="https://github.com/Bobby-Krishnan/Gambler-s-Ruin-Game"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://bobby-krishnan.itch.io/gamblers-ruin"
                   className="text-blue-500 underline"
                   target="_blank"
                   rel="noopener noreferrer"
