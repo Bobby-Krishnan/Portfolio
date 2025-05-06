@@ -32,6 +32,16 @@ function App() {
           </p>
         </div>
       </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="py-20">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h3 className="text-2xl font-bold mb-8">Projects</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Project cards will be added here */}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
