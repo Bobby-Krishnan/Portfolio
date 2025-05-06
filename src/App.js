@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
   return (
@@ -177,13 +178,39 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section - Step 1 */}
+      {/* Contact Section with Icons */}
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h3 className="text-2xl font-bold mb-4">Get In Touch</h3>
           <p className="mb-6 text-gray-700">
-          I'm always open to discussing new projects, collaborations, or opportunities. Feel free to reach out!
+            I'm always open to discussing new projects, collaborations, or opportunities. Feel free to reach out!
           </p>
+          <p className="text-sm text-gray-700">
+            <span className="font-semibold">Email:</span>{" "}
+            <a href="mailto:Abhishek.Krishnan@duke.edu" className="text-blue-500 hover:underline">
+              Abhishek.Krishnan@duke.edu
+            </a>
+          </p>
+          <div className="flex justify-center gap-6 mt-6 text-2xl">
+            <a
+              href="https://www.linkedin.com/in/abhishekkrishnan04/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/Bobby-Krishnan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-black"
+              aria-label="GitHub"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
       </section>
     </div>
