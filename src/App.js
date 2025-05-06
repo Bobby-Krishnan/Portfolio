@@ -39,7 +39,7 @@ function App() {
           <h3 className="text-2xl font-bold mb-8">Projects</h3>
 
           {/* Finance Section */}
-          <h4 className="text-xl font-semibold mb-4">Finance</h4>
+          <h4 className="text-xl font-semibold mb-4"> Finance</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* IMC Prosperity 3 – Team Saturn */}
             <div className="p-6 bg-white rounded-2xl shadow">
@@ -85,9 +85,8 @@ function App() {
           </div>
 
           {/* Games Section */}
-          <h4 className="text-xl font-semibold mb-4">Games</h4>
+          <h4 className="text-xl font-semibold mb-4"> Games</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-
             {/* ThinkFast */}
             <div className="p-6 bg-white rounded-2xl shadow">
               <h4 className="text-xl font-semibold">ThinkFast</h4>
@@ -174,8 +173,14 @@ function App() {
                 </a>
               </div>
             </div>
-
           </div>
+        </div>
+      </section>
+
+      {/* Contact Section - Step 1 */}
+      <section id="contact" className="py-20 bg-white">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h3 className="text-2xl font-bold mb-4">Get In Touch</h3>
         </div>
       </section>
     </div>
