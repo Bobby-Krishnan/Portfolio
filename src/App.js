@@ -38,7 +38,34 @@ function App() {
         <div className="container mx-auto px-4 max-w-5xl">
           <h3 className="text-2xl font-bold mb-8">Projects</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Project cards will be added here */}
+            {/* ThinkFast Project Card */}
+            <div className="p-6 bg-white rounded-2xl shadow">
+              <h4 className="text-xl font-semibold">ThinkFast</h4>
+              <p className="mt-2 text-sm">
+                ThinkFast is a fast-paced mental math game where players race against the clock to solve arithmetic problems. Play solo or go head-to-head with a friend in real-time multiplayer mode.
+              </p>
+              <p className="mt-2 text-sm text-gray-600 italic">
+                Built with React, Vite, Firebase (Firestore, Hosting), React Router, and modern JavaScript.
+              </p>
+              <div className="mt-3 space-x-4">
+                <a
+                  href="https://github.com/Bobby-Krishnan/ThinkFast"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://thinkfast-df319.web.app/"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
