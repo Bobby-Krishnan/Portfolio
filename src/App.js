@@ -181,6 +181,9 @@ function App() {
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h3 className="text-2xl font-bold mb-4">Get In Touch</h3>
+          <p className="mb-6 text-gray-700">
+          I'm always open to discussing new projects, collaborations, or opportunities. Feel free to reach out!
+          </p>
         </div>
       </section>
     </div>
