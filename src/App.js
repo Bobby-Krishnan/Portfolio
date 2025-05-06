@@ -14,6 +14,14 @@ function App() {
           </div>
         </div>
       </nav>
+
+      {/* Hero Section change this later */} 
+      <section className="min-h-screen flex flex-col justify-center items-center text-center px-4">
+        <h2 className="text-4xl font-bold mb-2">Hi, I'm Bobby Krishnan</h2>
+        <p className="text-lg max-w-xl"> 
+          I'm a computer science student and developer passionate about building modern web apps and solving real-world problems through code.
+        </p>
+      </section>
     </div>
   );
 }
