@@ -2,7 +2,7 @@ import React from "react";
 
 function App() {
   return (
-    <div>
+    <div className="font-sans bg-gray-50 text-gray-800">
       
     </div>
   );
