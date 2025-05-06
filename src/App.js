@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Tilt from 'react-parallax-tilt';
+
 
 function App() {
   return (
@@ -17,8 +19,8 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-4">
-        <h2 className="text-4xl font-bold mb-2">Hi, I'm Bobby Krishnan</h2>
+      <section className="py-24 flex flex-col justify-center items-center text-center px-4">
+      <h2 className="text-4xl font-bold mb-2">Hi, I'm Bobby Krishnan</h2>
         <p className="text-lg max-w-xl">
         I am a full stack developer working to engineer ideas into reality
         </p>
