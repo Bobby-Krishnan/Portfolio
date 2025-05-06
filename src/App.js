@@ -89,6 +89,35 @@ function App() {
               </div>
             </div>
 
+            {/* Kai's Ascent Project */}
+            <div className="p-6 bg-white rounded-2xl shadow">
+              <h4 className="text-xl font-semibold">Kai's Ascent</h4>
+              <p className="mt-2 text-sm">
+                A retro-inspired 2D side-scrolling action platformer built in Unity.
+              </p>
+              <p className="mt-2 text-sm text-gray-600 italic">
+                Technologies: Unity, C#, Tilemap System, Animator, Input System
+              </p>
+              <div className="mt-3 space-x-4">
+                <a
+                  href="https://github.com/Bobby-Krishnan/Kai-s-Ascent"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://bobby-krishnan.itch.io/kais-ascent"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
