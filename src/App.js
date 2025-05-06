@@ -37,7 +37,10 @@ function App() {
       <section id="projects" className="py-20">
         <div className="container mx-auto px-4 max-w-5xl">
           <h3 className="text-2xl font-bold mb-8">Projects</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+          {/* Games Section */}
+          <h4 className="text-xl font-semibold mb-4">Games</h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
 
             {/* ThinkFast */}
             <div className="p-6 bg-white rounded-2xl shadow">
@@ -64,27 +67,6 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   Live Demo
-                </a>
-              </div>
-            </div>
-
-            {/* IMC Prosperity 3 – Team Saturn */}
-            <div className="p-6 bg-white rounded-2xl shadow">
-              <h4 className="text-xl font-semibold">IMC Prosperity 3 – Team Saturn</h4>
-              <p className="mt-2 text-sm">
-                Global algorithmic trading competition by IMC. Placed #116 worldwide and #33 in the U.S. out of 12,620 participants.
-              </p>
-              <p className="mt-2 text-sm text-gray-600 italic">
-                Technologies: Python, NumPy, jsonpickle, custom trading simulator
-              </p>
-              <div className="mt-3 space-x-4">
-                <a
-                  href="https://github.com/Bobby-Krishnan/IMC-Prosperity-3"
-                  className="text-blue-500 underline"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub
                 </a>
               </div>
             </div>
@@ -146,6 +128,32 @@ function App() {
                 </a>
               </div>
             </div>
+          </div>
+
+          {/* Finance Section */}
+          <h4 className="text-xl font-semibold mb-4"> Finance</h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            {/* IMC Prosperity 3 – Team Saturn */}
+            <div className="p-6 bg-white rounded-2xl shadow">
+              <h4 className="text-xl font-semibold">IMC Prosperity 3 – Team Saturn</h4>
+              <p className="mt-2 text-sm">
+                Global algorithmic trading competition by IMC. Placed #116 worldwide and #33 in the U.S. out of 12,620 participants.
+              </p>
+              <p className="mt-2 text-sm text-gray-600 italic">
+                Technologies: Python, NumPy, jsonpickle, custom trading simulator
+              </p>
+              <div className="mt-3 space-x-4">
+                <a
+                  href="https://github.com/Bobby-Krishnan/IMC-Prosperity-3"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
 
             {/* Stock Price Forecasting Model */}
             <div className="p-6 bg-white rounded-2xl shadow">
@@ -167,7 +175,6 @@ function App() {
                 </a>
               </div>
             </div>
-
           </div>
         </div>
       </section>
