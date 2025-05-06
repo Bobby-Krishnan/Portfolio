@@ -147,6 +147,27 @@ function App() {
               </div>
             </div>
 
+            {/* Stock Price Forecasting Model */}
+            <div className="p-6 bg-white rounded-2xl shadow">
+              <h4 className="text-xl font-semibold">Stock Price Forecasting Model</h4>
+              <p className="mt-2 text-sm">
+                An LSTM-based predictive model for forecasting stock price trends.
+              </p>
+              <p className="mt-2 text-sm text-gray-600 italic">
+                Technologies: Python, Streamlit, pandas, NumPy, Keras, matplotlib
+              </p>
+              <div className="mt-3 space-x-4">
+                <a
+                  href="https://github.com/Bobby-Krishnan/Stock-Trend-Indicator"
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
