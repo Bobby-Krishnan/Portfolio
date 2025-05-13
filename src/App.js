@@ -30,10 +30,33 @@ function App() {
         <div className="container mx-auto px-4 max-w-5xl">
           <h3 className="text-2xl font-bold mb-8 text-[#012169]">Projects</h3>
 
+          {/* AI Section */}
+          <h4 className="text-xl font-semibold mb-4"> AI</h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
+              <h4 className="text-xl font-semibold">Shrinx</h4>
+              <p className="mt-2 text-sm">
+                A CLI tool for compressing token-heavy chat logs without losing semantic meaning—optimized for LLM pipelines. Ideal for reducing API costs and improving latency.
+              </p>
+              <p className="mt-2 text-sm text-gray-600 italic">
+                Technologies: Python, Hugging Face Transformers, WizardLM, CLI, JSONL
+              </p>
+              <div className="mt-3 space-x-4">
+                <a
+                  href="https://github.com/Bobby-Krishnan/Shrinx"
+                  className="text-[#0076C8] underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </Tilt>
+          </div>
+
           {/* Finance Section */}
           <h4 className="text-xl font-semibold mb-4"> Finance</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {/* IMC Prosperity 3 – Team Saturn */}
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">IMC Prosperity 3 – Team Saturn</h4>
               <p className="mt-2 text-sm">
@@ -54,7 +77,6 @@ function App() {
               </div>
             </Tilt>
 
-            {/* Stock Price Forecasting Model */}
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Stock Price Forecasting Model</h4>
               <p className="mt-2 text-sm">
@@ -79,7 +101,6 @@ function App() {
           {/* Games Section */}
           <h4 className="text-xl font-semibold mb-4"> Games</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* ThinkFast */}
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">ThinkFast</h4>
               <p className="mt-2 text-sm">
@@ -108,7 +129,6 @@ function App() {
               </div>
             </Tilt>
 
-            {/* Kai's Ascent */}
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Kai's Ascent</h4>
               <p className="mt-2 text-sm">
@@ -137,7 +157,6 @@ function App() {
               </div>
             </Tilt>
 
-            {/* Gambler's Ruin Game */}
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Gambler’s Ruin Game</h4>
               <p className="mt-2 text-sm">
@@ -169,7 +188,7 @@ function App() {
         </div>
       </section>
 
-      {/* Contact Section with Icons */}
+      {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h3 className="text-2xl font-bold mb-4 text-[#012169]">Get In Touch</h3>
