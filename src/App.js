@@ -31,7 +31,7 @@ function App() {
           <h3 className="text-2xl font-bold mb-8 text-[#012169]">Projects</h3>
 
           {/* AI Section */}
-          <h4 className="text-xl font-semibold mb-4"> AI</h4>
+          <h4 className="text-xl font-semibold mb-4"> Artificial Intelligence</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Shrinx</h4>
