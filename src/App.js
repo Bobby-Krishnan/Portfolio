@@ -36,7 +36,7 @@ function App() {
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">Shrinx</h4>
               <p className="mt-2 text-sm">
-                A CLI tool for compressing token-heavy chat logs without losing semantic meaning—optimized for LLM pipelines. Ideal for reducing API costs and improving latency.
+              A CLI tool that compresses token-heavy chat logs into semantically equivalent formats, reducing LLM context size and API costs while improving performance across agent and memory pipelines.
               </p>
               <p className="mt-2 text-sm text-gray-600 italic">
               Technologies: Python, Docker, Hugging Face Transformers, WizardLM (via LLaMA.cpp), JSON/JSONL, CLI, FastAPI (planned)
