@@ -50,9 +50,21 @@ function App() {
                 >
                   GitHub
                 </a>
+                <div className="mt-4">
+              <iframe
+              src="https://drive.google.com/file/d/1tFt-JJUihTai2Re5TOV2RfcyAIMDEoUh/view?usp=sharing"
+              title="Shrinx Demo"
+              width="100%"
+              height="315"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="rounded-md"
+              ></iframe>
+                </div>
               </div>
             </Tilt>
           </div>
+    
 
           {/* Finance Section */}
           <h4 className="text-xl font-semibold mb-4"> Finance</h4>
