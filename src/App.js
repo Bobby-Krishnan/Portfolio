@@ -52,7 +52,7 @@ function App() {
                 </a>
                 <div className="mt-4">
               <iframe
-              src="https://drive.google.com/file/d/1tFt-JJUihTai2Re5TOV2RfcyAIMDEoUh/view?usp=sharing"
+              src="___"
               title="Shrinx Demo"
               width="100%"
               height="315"
