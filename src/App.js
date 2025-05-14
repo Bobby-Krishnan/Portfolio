@@ -39,7 +39,7 @@ function App() {
                 A CLI tool for compressing token-heavy chat logs without losing semantic meaning—optimized for LLM pipelines. Ideal for reducing API costs and improving latency.
               </p>
               <p className="mt-2 text-sm text-gray-600 italic">
-                Technologies: Python, Hugging Face Transformers, WizardLM, CLI, JSONL
+              Technologies: Python, Docker, Hugging Face Transformers, WizardLM (via LLaMA.cpp), JSON/JSONL, CLI, FastAPI (planned)
               </p>
               <div className="mt-3 space-x-4">
                 <a
