@@ -21,7 +21,7 @@ function App() {
       <section className="py-24 flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-[#F5F9FF] to-white">
         <h2 className="text-5xl font-extrabold text-[#012169] mb-4">Hi, I'm Bobby Krishnan</h2>
         <p className="text-lg max-w-xl leading-relaxed">
-          I am a full stack developer working to engineer ideas into reality
+          If you can't do what you imagine, then what is imagination to you?
         </p>
       </section>
 
