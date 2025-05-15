@@ -116,7 +116,7 @@ function App() {
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">ThinkFast</h4>
               <p className="mt-2 text-sm">
-                A fast-paced mental math game featuring solo and real-time multiplayer modes.
+                A fast-paced mental math game featuring solo and real-time multiplayer modes. I have a high score of 146 on the default settings.
               </p>
               <p className="mt-2 text-sm text-gray-600 italic">
                 Technologies: React, Vite, Firebase, React Router
