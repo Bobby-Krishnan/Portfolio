@@ -147,7 +147,7 @@ function App() {
                 A retro-inspired 2D side-scrolling action platformer built in Unity.
               </p>
               <p className="mt-2 text-sm text-gray-600 italic">
-                Technologies: Unity, C#, Tilemap System, Animator, Input System
+                Technologies: Unity, C#
               </p>
               <div className="mt-3 space-x-4">
                 <a
