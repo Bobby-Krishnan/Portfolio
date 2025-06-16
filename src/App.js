@@ -72,7 +72,7 @@ function App() {
             <Tilt className="p-6 bg-white rounded-2xl shadow transition-transform">
               <h4 className="text-xl font-semibold">IMC Prosperity 3 – Team Saturn</h4>
               <p className="mt-2 text-sm">
-                IMC's Global algorithmic trading competition by IMC. Placed #116 worldwide and #33 in the U.S. out of 12,620 participants.
+                IMC's Global algorithmic trading competition. Placed #116 worldwide and #33 in the U.S. out of 12,620 participants.
               </p>
               <p className="mt-2 text-sm text-gray-600 italic">
                 Technologies: Python, NumPy, jsonpickle, custom trading simulator
